@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic Strip Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Comic Strip Creator</h1>
+        <form id="comicForm">
+            <div id="textInputs">
+                <!-- Inputs for 10 comic panels -->
+                <div class="form-group">
+                    <label for="panel1">Panel</label>
+                    <input type="text" id="panel1" name="panel1">
+                </div>
+                <!-- Repeat for panels 2 through 10 -->
+            </div>
+            <button type="submit">Generate Comic Strip</button>
+        </form>
+        <div id="comicStrip">
+            <!-- Generated comic panels will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
